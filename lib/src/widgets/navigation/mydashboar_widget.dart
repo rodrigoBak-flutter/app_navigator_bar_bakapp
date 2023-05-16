@@ -2,7 +2,7 @@ import 'package:app_menu_animated_bakapp/src/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 //Widgets
-import 'package:app_menu_animated_bakapp/src/widgets/natigation/custom_animated_button.dart';
+import 'package:app_menu_animated_bakapp/src/widgets/navigation/custom_animated_button.dart';
 
 class MyDashBoard extends StatefulWidget {
   const MyDashBoard({super.key});

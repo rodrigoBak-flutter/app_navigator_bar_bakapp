@@ -1,4 +1,4 @@
-import 'package:app_menu_animated_bakapp/src/widgets/natigation/mydashboar_widget.dart';
+import 'package:app_menu_animated_bakapp/src/widgets/navigation/mydashboar_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Custom Animated Button',
       initialRoute: 'MyDashBoard',
       routes: {
-        'MyDashBoard': (_) => MyDashBoard(),
+        'MyDashBoard': (_) => const MyDashBoard(),
       },
     );
   }
